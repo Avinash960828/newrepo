@@ -27,7 +27,7 @@ let y= ++x;//=> here y =4 and x=4
 //postfix increment 
 
 let a=3;
-let b=a++;// => here b=3 and a will be 4
+let b=a++;// => here b=3 and a will be 4 here b will assign to a first then after it increment the value of a
 
 console.log(a,b);
 console.log(x,y);
