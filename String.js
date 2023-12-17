@@ -24,6 +24,15 @@ console.log(newStringone.trim());
 
 console.log(gameName.includes("avinas"));
 
-console.log(gameName.split(""));
+console.log(gameName);
 
 // go on mdn and once see and explore the string methods 👍
+
+/**************************math******************/
+
+console.log(Math.floor(Math.random()*10) +1);
+
+const min =1;
+const max=6;
+//**  memeorise it 
+console.log(Math.floor(Math.random()* (max-min +1))+min);
