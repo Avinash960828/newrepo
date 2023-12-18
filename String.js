@@ -22,7 +22,7 @@ console.log(newStringone.trim());
 
 // console.log(newString.trimEnd());
 
-console.log(gameName.includes("avinas"));
+console.log(gameName.includes("avinash"));
 
 console.log(gameName);
 
