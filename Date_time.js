@@ -4,14 +4,14 @@ console.log(myDate.toLocaleString());
 console.log(typeof myDate);
 
 
-//let Mycreateddate= new Date(2023,0,23)
-// let Mycreateddate= new Date(2023,0,23,5,3)
-// let Mycreateddate= new Date("2023-01-14")
-// let Mycreateddate= new Date("01-14-2023")
-// console.log(Mycreateddate.toLocaleString()); //=> it makes easy to read .toDateString()
-// let myTimeStamp= Date.now()
-// console.log(myTimeStamp);
-// console.log(Mycreateddate.getTime());
+let Mycreateddate1= new Date(2023,0,23)
+let Mycreateddate2= new Date(2023,0,23,5,3)
+let Mycreateddate3= new Date("2023-01-14")
+let Mycreateddate= new Date("01-14-2023")
+console.log(Mycreateddate.toLocaleString()); //=> it makes easy to read .toDateString()
+let myTimeStamp= Date.now()
+console.log(myTimeStamp);
+console.log(Mycreateddate.getTime());
 console.log(Math.floor(Date.now()/1000)); //==> gives time in ms now converting in sec by dividing 1000
 
 let newDate= new Date();
