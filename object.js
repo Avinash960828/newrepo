@@ -40,5 +40,33 @@ console.log(jsusers.greetting());
 console.log(jsusers.greetting2());
 
 
+/////////***********///////// 
+
+// const tinderuser= new Object();
+const tinderuser= {}
+tinderuser.id="123abc"
+tinderuser.name="avinash"
+tinderuser.loggedin=false
+
+// console.log(tinderuser);
+const regularuser={
+    email: "some@gmail.com",
+    fullname: {
+        usersfullname: {
+            firstname:"avinash",
+            lastname: "kumar"
+        }
+    }
+}
+// console.log(regularuser.fullname.usersfullname.lastname);
+
+// console.log(regularuser);
+
+const obj1= {1: "a",2: "b"}
+const obj2= {3: "c",4: "d"}
+const obj3= Object.assign(obj1,obj2); // => MERGING THE TWO OBJECTS
+console.log(obj3);
+
+
 
 
