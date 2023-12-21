@@ -64,9 +64,41 @@ const regularuser={
 
 const obj1= {1: "a",2: "b"}
 const obj2= {3: "c",4: "d"}
-const obj3= Object.assign(obj1,obj2); // => MERGING THE TWO OBJECTS
-console.log(obj3);
+// // const obj3={obj1,obj2}; // => MERGING THE TWO OBJECTS but in this case object is inside the object
 
+//  const obj3=Object.assign(obj1,obj2) // it uses for merging
+const obj3={...obj1,...obj2}
+ console.log(obj3); 
+
+
+
+ const users=[
+    {
+        id:1,
+        emial:"ak@google.com"
+    },
+
+    {
+
+    },
+    {
+
+    }
+ ]
+
+ console.log(users[0].emial)
+
+
+
+ //////////*********** *//////
+ console.log(tinderuser)
+ console.log(Object.keys(tinderuser));// it return us the key in array format  so here we can aaply loop
+ console.log(Object.values(tinderuser));
+ console.log(tinderuser.name.length);
+ console.log(Object.entries(tinderuser));
+
+
+console.log(tinderuser.hasOwnproprty('isloggedin'));
 
 
 
