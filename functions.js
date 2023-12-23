@@ -64,3 +64,62 @@ function returnSedcondValue(getarray) {
     return getarray[1]
 }
 console.log(returnSedcondValue(myArray));
+
+
+const user2={
+    username: "avinash",
+    price:999,
+    welcomeMessage: function(){
+        console.log(`${this.username},welcome to this page`);// this is usded for showing current conteext
+
+    }
+
+}
+
+user2.welcomeMessage()
+console.log(this);
+user2.username="sam"
+user2.welcomeMessage()
+console.log(this);
+
+
+
+////////////arrow function/////////////
+
+
+// 
+
+
+const chai = function(){
+    let username= "hitesh"
+    console.log(this.username);
+
+}
+/////////arrow function
+
+const chai3 =() => {
+    let username= "hitesh"
+    console.log(this.username);
+
+}
+
+chai3()
+
+
+
+
+
+//  const AddTwo = (a,b)=>{
+//     return a+b
+//  }
+//  console.log(AddTwo(3,6));
+
+
+
+//  implicit return 
+
+
+const AddTwo = (a,b) =>  (a + b)
+console.log(AddTwo(7,8))
+ 
+

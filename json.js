@@ -21,3 +21,20 @@ console.log(coysreinstructer );
     {}
 
 ]
+
+
+
+//////this keyword////////////
+
+
+const user={
+    username: "avinash",
+    price:999,
+    welcomeMessage: function(){
+        console.log(`${this.username},welcome to this page`);// this is usded for showing current conteext
+
+    }
+
+}
+
+user.welcomeMessage
