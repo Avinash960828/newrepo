@@ -54,7 +54,44 @@ while (i<=10) {
 
 
 
+////// for of loop
+
+const arr= [1,2,3,4,5,7,8]
+for (const num of arr) {
+    console.log(num);
+}
+
+
+const greeting = "hello world"
+for (const greet of greeting) {
+    console.log(greet);
+}
+
+
+
+//////Maps///////
+
+const map1 = new Map();
+
+map1.set('a',6)
+map1.set('b',8)
+map1.set('IN',"india")
+console.log(map1.get('a'));
+
+for (const [key, value] of map1) {
+    console.log(key,value);
+}
 
 
 
 
+/////for in loop
+
+Myobject={
+    name: "avinash" ,
+    age:20,
+    state: "bihar"
+}
+for (const key in Myobject) {
+   console.log(Myobject[key]);
+}
