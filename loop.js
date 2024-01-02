@@ -70,6 +70,7 @@ for (const greet of greeting) {
 
 
 //////Maps///////
+// maps are not itterable
 
 const map1 = new Map();
 
@@ -85,8 +86,8 @@ for (const [key, value] of map1) {
 
 
 
-/////for in loop
-
+/////for in loop  it generally shows key
+//uses in object
 Myobject={
     name: "avinash" ,
     age:20,
@@ -95,3 +96,19 @@ Myobject={
 for (const key in Myobject) {
    console.log(Myobject[key]);
 }
+
+
+// for each loop in js 
+
+const coding=["js","java","python","ruby"]
+
+coding.forEach((item)=>{
+console.log(item);
+})
+
+// coding.forEach(function(item) {
+//     console.log(item);
+// })
+
+
+/////////
